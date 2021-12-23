@@ -53,3 +53,4 @@ while (preg!=4){
         console.log("estas en los correcto");
     }
 }
+for(){}
