@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reto2.css">
+    <title>Reto #2|Curso practico de JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Reto #2: descuentos y cupones</h1>
+    </header>
+    <section>
+        <h2>Calcular el precio y seleccione el cupon</h2>
+        <form action="" id="formulario">
+            <label for="producto">Escribe el precio del producto:</label>
+            <input type="number" id="producto">
+            <label for="cupones">Seleccione el cupon si posee una:</label>
+            <select name="cupones" id="cupones">
+                <option value="Bronce">Bronce</option>
+                <option value="Plata">Plata</option>
+                <option value="Oro">Oro</option>
+                <option value="Platino">Platino</option>
+                <option value="Diamante">Diamante</option>
+            </select>
+            <button type="button" onclick="Calcular_precio()">Calcular</button>
+            <p id="result"></p>
+        </form>
+    </section>
+    <script src="./reto2.js"></script>
+</body>
+</html>
