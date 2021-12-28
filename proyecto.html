@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./proyecto.css">
+    <title>Proyecto| Curso Practico de JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Features and projects</h1>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Select the loan amount and term years</h2>
+            <form action="">
+                <label for="money">amount of money:</label>
+                <input type="number" id="money" placeholder="Money$">
+                <label for="years">Years term:</label>
+                <select name="years" id="anho" class="year">
+                    <option value="to_select">To select...</option>
+                    <option value="Years 2">Years 2</option>
+                    <option value="Years 3">Years 3</option>
+                    <option value="Years 4">Years 4</option>
+                    <option value="Years 5">Years 5</option>
+                </select>
+                <button type="button" onclick="calcular()">Press</button>
+            </form>
+            <div class="result">
+                <p id="result1"></p>
+                <p id="result2"></p>
+            </div>
+        </div>  
+    </section>
+
+    <footer>
+        <a href=""><p class="pe">Help & support</p></a>
+        <a href=""><p class="pe">Security</p></a>
+        <a href=""><p class="pe">Contact us</p></a>
+    </footer>
+    <script src="./proyecto.js"></script>
+</body>
+</html>
