@@ -23,3 +23,10 @@ aprendiendo a programar en JavaScript
 - segundo paso: implementar la formulas en JavaScript.
 - tercer paso: crear funciones.
 - cuarto paso: integras JS con HTML.
+
+## Proyecto ✨
+
+- primer paso: definir las formulas.
+- segundo paso: implementar la formulas en JavaScript.
+- tercer paso: crear funciones.
+- cuarto paso: integras JS con HTML.
